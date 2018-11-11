@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for scrpay_study project
+# Scrapy settings for books_scrapy project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'scrpay_study'
+BOT_NAME = 'books_scrapy'
 
-SPIDER_MODULES = ['scrpay_study.spiders']
-NEWSPIDER_MODULE = 'scrpay_study.spiders'
+SPIDER_MODULES = ['books_scrapy.spiders']
+NEWSPIDER_MODULE = 'books_scrapy.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'scrpay_study (+http://www.yourdomain.com)'
+#USER_AGENT = 'books_scrapy (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'scrpay_study.middlewares.ScrpayStudySpiderMiddleware': 543,
+#    'books_scrapy.middlewares.BooksScrapySpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'scrpay_study.middlewares.ScrpayStudyDownloaderMiddleware': 543,
+#    'books_scrapy.middlewares.BooksScrapyDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'scrpay_study.pipelines.ScrpayStudyPipeline': 300,
+#    'books_scrapy.pipelines.BooksScrapyPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
