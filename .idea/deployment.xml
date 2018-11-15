@@ -19,7 +19,7 @@
       <paths name="scrapy_test@192.168.0.100:22">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/odoo/scrapy_test" local="$PROJECT_DIR$" />
+            <mapping deploy="/home/odoo/books_scrapy" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
