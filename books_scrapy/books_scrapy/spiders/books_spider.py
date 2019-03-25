@@ -4,10 +4,10 @@ import scrapy
 class BookSpider(scrapy.Spider):
     # 爬虫的标识
     name = "books"
-
+    # 爬取的地址
     start_urls = ["https://www.hao123.com"]
 
-    def parse(self,response):
+    def parse(self, response):
         for book in response.css("article.product_pod"):
             name = book.xpath("./h3/a@titile").extract_first()
 

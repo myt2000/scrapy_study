@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="scrapy_test@192.168.0.100:22">
+  <component name="PublishConfigData" serverName="scrapy_test@192.168.0.100:22">
     <serverData>
-      <paths name="odoo@192.168.0.105:22">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
       <paths name="pyvip@192.168.0.104:22">
         <serverdata>
           <mappings>
@@ -24,6 +17,5 @@
         </serverdata>
       </paths>
     </serverData>
-    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
