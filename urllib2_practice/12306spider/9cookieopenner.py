@@ -25,8 +25,8 @@ def send_request():
 
     #2.参数
     formdata = {
-        "email": "myt2000@126.com",
-        "password": "myt19910910"
+        "email": "123@126.com",
+        "password": "123"
     }
     formdata_str = bytes(parse.urlencode(formdata).encode("utf-8"))
     ask = request.Request(login_url, data=formdata_str, headers=headers)
