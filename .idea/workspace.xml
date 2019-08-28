@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54f9feec-8abc-48a8-842a-8b5b3d0bc075" name="Default" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/urllib2_practice/12306spider/10HTTPerrorurlerror.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/urllib2_practice/12306spider/11randomproxy.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/urllib2_practice/12306spider/12requests_base_use.py" afterDir="false" />
@@ -9,6 +10,29 @@
       <change afterPath="$PROJECT_DIR$/urllib2_practice/re_xpath/2xpath_method.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/urllib2_practice/re_xpath/5xpathbaseuse.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/urllib2_practice/re_xpath/__init__.py" afterDir="false" />
+=======
+<<<<<<< HEAD
+=======
+      <change afterPath="$PROJECT_DIR$/redis_lock/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis_lock/demo002.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis_lock/demo1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urllib2_practice/12306spider/5customhandleropener.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urllib2_practice/12306spider/6proxyopenner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urllib2_practice/12306spider/7webauth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urllib2_practice/12306spider/8cookie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urllib2_practice/12306spider/9cookieopenner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urllib2_practice/12306spider/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urllib2_practice/12306spider/ssl_ignore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urllib2_practice/7tieba.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urllib2_practice/baidu_translate/3fanyibaidu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urllib2_practice/baidu_translate/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urllib2_practice/douban/1doubanhome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urllib2_practice/douban/2doubanmovielist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urllib2_practice/douban/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scrapy_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scrapy_study.iml" afterDir="false" />
+>>>>>>> e5a8f53be4386e53b4a7195d1cf4d3361a46af4f
+>>>>>>> 356a94f6dae67a86b8b7a7c7129835ef6dcf4a59
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urllib2_practice/12306spider/8renren.html" beforeDir="false" afterPath="$PROJECT_DIR$/urllib2_practice/12306spider/8renren.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urllib2_practice/12306spider/9cookieopenner.py" beforeDir="false" afterPath="$PROJECT_DIR$/urllib2_practice/12306spider/9cookieopenner.py" afterDir="false" />
@@ -25,6 +49,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+=======
+        <entry file="file://$PROJECT_DIR$/urllib2_practice/12306spider/ssl_ignore.py">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="396">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+=======
+            <state relative-caret-position="176">
+              <caret line="8" column="101" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="101" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/urllib2_practice/12306spider/5customhandleropener.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="13" selection-start-line="13" selection-end-line="14" selection-end-column="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+>>>>>>> 356a94f6dae67a86b8b7a7c7129835ef6dcf4a59
         <entry file="file://$PROJECT_DIR$/urllib2_practice/12306spider/6proxyopenner.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="484">
@@ -107,8 +159,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/urllib2_practice/12306spider/12requests_base_use.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="110">
               <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+=======
+            <state relative-caret-position="22">
+              <caret line="194" column="54" selection-start-line="194" selection-start-column="54" selection-end-line="194" selection-end-column="54" />
+>>>>>>> e5a8f53be4386e53b4a7195d1cf4d3361a46af4f
+>>>>>>> 356a94f6dae67a86b8b7a7c7129835ef6dcf4a59
             </state>
           </provider>
         </entry>
@@ -196,12 +254,15 @@
               <item name="scrapy_study" type="462c0819:PsiDirectoryNode" />
               <item name="urllib2_practice" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
             <path>
               <item name="scrapy_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="scrapy_study" type="462c0819:PsiDirectoryNode" />
               <item name="urllib2_practice" type="462c0819:PsiDirectoryNode" />
               <item name="re_xpath" type="462c0819:PsiDirectoryNode" />
             </path>
+>>>>>>> e5a8f53be4386e53b4a7195d1cf4d3361a46af4f
           </expand>
           <select />
         </subPane>
@@ -213,7 +274,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/urllib2_practice/re_xpath/1remethod.py" />
+=======
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/urllib2_practice/12306spider/9cookieopenner.py" />
+>>>>>>> e5a8f53be4386e53b4a7195d1cf4d3361a46af4f
+>>>>>>> 356a94f6dae67a86b8b7a7c7129835ef6dcf4a59
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -288,6 +357,26 @@
     <option name="totallyTimeSpent" value="46521000" />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="-7" y="-7" width="1550" height="846" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32911393" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49685535" visible="true" weight="0.3016086" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" sideWeight="0.5031447" side_tool="true" weight="0.25670242" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" sideWeight="0.50067115" side_tool="true" weight="0.2526738" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+=======
     <frame x="35" y="37" width="1448" height="860" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49685535" visible="true" weight="0.23991354" />
@@ -298,6 +387,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39807162" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+>>>>>>> e5a8f53be4386e53b4a7195d1cf4d3361a46af4f
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -364,8 +454,41 @@
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/remote_sources/-1364025296/-1610173344/scrapy/selector/unified.py" />
     <entry file="file://$PROJECT_DIR$/books_scrapy/books_scrapy/spiders/selector_html.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="396">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books_scrapy/books_scrapy/spiders/books_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books_scrapy/books_scrapy/spiders/books_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books_scrapy/books_scrapy/spiders/books_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books_scrapy/books_scrapy/spiders/books_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+=======
         <state relative-caret-position="529">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
+>>>>>>> e5a8f53be4386e53b4a7195d1cf4d3361a46af4f
         </state>
       </provider>
     </entry>
@@ -632,6 +755,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/urllib2_practice/12306spider/12requests_base_use.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="110">
           <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
@@ -651,6 +775,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="396">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+=======
+        <state relative-caret-position="299">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+>>>>>>> e5a8f53be4386e53b4a7195d1cf4d3361a46af4f
+>>>>>>> 356a94f6dae67a86b8b7a7c7129835ef6dcf4a59
         </state>
       </provider>
     </entry>
