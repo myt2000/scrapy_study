@@ -32,7 +32,8 @@ def send_request():
     ask = request.Request(login_url, data=formdata_str, headers=headers)
 
     #先发送登录请求 获取保存的cookie
-    cook_openner.open(ask)
+    result = cook_openner.open(ask)
+
 
 
 
