@@ -22,14 +22,14 @@ def proxy_openner():
 
     proxy_handler = request.ProxyHandler(proxy)
 
-    openner = request.build_opener(proxy_handler)
+    opener = request.build_opener(proxy_handler)
 
     url = "https://www.baidu.com/"
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"}
 
     ask = request.Request(url=url, headers=headers)
 
-    apply = openner.open(ask)
+    apply = opener.open(ask)
     if apply.getcode() == 200:
         print(apply.read().decode("utf-8"))
 

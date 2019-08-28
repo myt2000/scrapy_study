@@ -18,7 +18,7 @@ def custom_openner():
 
     reply = openner.open(ask)
 
-    print(reply)
+    print(reply.headers)
 
 
 if __name__ == "__main__":

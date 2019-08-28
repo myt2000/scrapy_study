@@ -51,7 +51,7 @@ def send_request():
 
 
 def write_file(data):
-    with open("8renren.html", "w", encoding="utf-8") as f:
+    with open("9renren.html", "w", encoding="utf-8") as f:
         f.write(data)
 
 

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="scrapy_test@192.168.0.100:22">
+  <component name="PublishConfigData">
     <serverData>
-      <paths name="pyvip@192.168.0.104:22">
+      <paths name="root@192.168.0.120:22">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/pyvip/scrapy_study" local="$PROJECT_DIR$" />
+            <mapping deploy="" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="scrapy_test@192.168.0.100:22">
+      <paths name="root@192.168.23.130:22">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/odoo/books_scrapy" local="$PROJECT_DIR$" />
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
