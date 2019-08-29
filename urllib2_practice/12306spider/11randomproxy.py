@@ -3,21 +3,22 @@ from urllib import request
 URLERRORCODE = 666
 
 def can_use_proxy(ask,openner,URLERRORCODE):
-    try:
-        response = openner.open(ask, timeout=3)
-        return response.getcode()
-    except request.HTTPError as err:
-        return err.code
-    except request.URLError as err:
-        return URLERRORCODE
+    # try:
+    response = openner.open(ask)
+    return response.getcode()
+    # except request.HTTPError as err:
+    #     return err.code
+    # except request.URLError as err:
+    #     return URLERRORCODE
 
 
 if __name__ == '__main__':
 
-    # 1.大量proxy free
+    # 1.大量proxy free,
+    # 不稳定，随时要换IP，所以导致很多问题
     proxy_list = [
-        {"https":"182.35.86.60:9999"},
-        {"http":"171.13.103.155:9999"},
+        {"https":"1.198.73.63:9999"},
+        {"http":"123.163.97.7:9999"},
     ]
 
     #2.验证有几个能用
