@@ -3,6 +3,7 @@ from User_Agent_list import USER_AGENT_LIST
 import random
 import time
 
+
 class Tiebaspider(object):
     def __init__(self, tiebaname, start_page, end_page):
         self.base_url = "https://tieba.baidu.com/f?"
