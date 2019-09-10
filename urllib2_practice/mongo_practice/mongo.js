@@ -109,3 +109,45 @@ db.one.insert({_id:8,name:"小美",age:60,gender:false})
     db.stu.find().limit(3)
     db.stu.find().limit(3).skip(2)
     db.stu.find().skip(2).limit(3)
+
+
+//1.聚合查询：管道  db.xx.aggregate([{管道1}, {管道2}, {管道3}])
+    // $group: db.xx.aggregated([{$group:}])
+        // 将数据 按照 性别分组
+            db.stu.aggregate([{$group:{_id:"$gender"}}])
+        // 按照性别分组，求出每组年龄的平均值   $avg $sum $max $min $last $first $push
+            db.stu.aggregate({$group:{_id:"$gender", age_avg:{$avg:"$age"}}})
+        // 按籍贯分组 求每个地方的年龄之和
+             db.stu.aggregate({$group:{_id:"$hometown",age_sum:{$sum:"$age"}}})
+
+        // push 将获取的字段 按照分组 显示
+        // 按照性别分组， 求出 每组的籍贯有哪些
+            db.stu.aggregate({$group:{_id:"$gender", address:{$push:"$hometown"}}})
+
+    // $match
+        // 求出 年龄大于18岁的人
+        db.stu.find({age:{$gt:18}})
+        db.stu.aggregate({$mathc:{age:{$gt:18}}})
+        // 求出 年龄小于40岁：按照性别分组
+            db.stu.aggregate({$match:{age:{$lt:40}}}, {$group:{_id:"$gender", name_list:{$push:"$name"}}})
+
+    // $project 投影：允许查看某个字段 db.xx.aggregate({$project:{字段;1, 字段:0}})
+
+    // $sort
+    // $limit
+    // $skip
+    // $unwind
+
+// 2.索引操作 ：通过索引查询 效率最高 时间
+        for (index = 0 ; index<200000; index++) {
+            db.stu.insert(
+                {
+                    _id:index,
+                    name:"name"+index,
+                    age:index
+                }
+            )
+        }
+        db.stu.find({name:"name199999"}).explain("executionStats")
+        //  通过id查询
+        db.stu.find({id:"199999"}).explain("executionStats")
