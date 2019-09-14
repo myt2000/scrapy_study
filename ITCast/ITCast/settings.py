@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for scrapy_project_test project
+# Scrapy settings for ITCast project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,62 +9,51 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'scrapy_project_test'
+BOT_NAME = 'ITCast'
 
-# 爬虫默认存放路径
-# 找爬虫的位置
-SPIDER_MODULES = ['scrapy_project_test.spiders']
-# 新建爬虫的位置
-NEWSPIDER_MODULE = 'scrapy_project_test.spiders'
+SPIDER_MODULES = ['ITCast.spiders']
+NEWSPIDER_MODULE = 'ITCast.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
 
-# Obey robots.txt rules 遵守robots协议
+# Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-# 处理最大请求数，默认16， 硬件足够
-# CONCURRENT_REQUESTS = 32
+#CONCURRENT_REQUESTS = 32
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-# 请求延迟 1-3秒之间
-DOWNLOAD_DELAY = 3
+#DOWNLOAD_DELAY = 3
 # The download delay setting will honor only one of:
-# 某个域名或IP发多少个请求
-# CONCURRENT_REQUESTS_PER_DOMAIN = 16
-# CONCURRENT_REQUESTS_PER_IP = 16
+#CONCURRENT_REQUESTS_PER_DOMAIN = 16
+#CONCURRENT_REQUESTS_PER_IP = 16
 
 # Disable cookies (enabled by default)
-# 是否使用cookie
-#COOKIES_ENABLED = False
+COOKIES_ENABLED = False
 
 # Disable Telnet Console (enabled by default)
-# 远程连接，本地监听的端口
 #TELNETCONSOLE_ENABLED = False
 
 # Override the default request headers:
-# 默认的请求报头
-DEFAULT_REQUEST_HEADERS = {
-  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-  'Accept-Language': 'en',
-}
+#DEFAULT_REQUEST_HEADERS = {
+#   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+#   'Accept-Language': 'en',
+#}
 
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
-# 爬虫中间件
-# SPIDER_MIDDLEWARES = {
-#    'scrapy_project_test.middlewares.ScrapyProjectTestSpiderMiddleware': 543,
-# }
+#SPIDER_MIDDLEWARES = {
+#    'ITCast.middlewares.ItcastSpiderMiddleware': 543,
+#}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-# 下载中间件
 #DOWNLOADER_MIDDLEWARES = {
-#    'scrapy_project_test.middlewares.ScrapyProjectTestDownloaderMiddleware': 543,
+#    'ITCast.middlewares.ItcastDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -75,12 +64,9 @@ DEFAULT_REQUEST_HEADERS = {
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-# ITEM中间件, value表示优先级，值越小，优先级越高
-# ITEM_PIPELINES = {
-#    'scrapy_project_test.pipelines.ScrapyProjectTestPipeline': 300,
-#    'scrapy_project_test.pipelines.ScrapyProjectTestMongodbPipeline': 300,
-#    'scrapy_project_test.pipelines.ScrapyProjectTestJsonPipeline': 300,
-# }
+ITEM_PIPELINES = {
+   'ITCast.pipelines.ItcastPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
